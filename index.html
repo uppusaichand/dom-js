@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom manipulations</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" >
+    function buttonclick()
+    {
+       var str= document.getElementById("heading2").innerHTML="not any text"
+       alert(str);
+    }
+   </script>
+</head>
+<body>
+    <button onclick="buttonclick()">click me</button>
+    <h2 id="heading2"> some random text</h2>    
+</body>
+</html>
